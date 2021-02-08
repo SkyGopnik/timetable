@@ -1,0 +1,19 @@
+#main {
+  .Cell__indicator, .Cell__aside {
+    overflow: visible;
+  }
+
+  .Group > :not(.Header):first-child {
+    margin-top: 0;
+  }
+
+  .tabs-swiper {
+    height: calc(100vh - calc(var(--safe-area-inset-bottom) + var(--tabbar_height)) - 104px - var(--safe-area-inset-top));
+    overflow-y: scroll;
+  }
+
+  .tabs-swiper::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+  }
+}
