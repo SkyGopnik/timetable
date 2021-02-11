@@ -11,8 +11,7 @@ import {
   TabsItem,
   InfoRow,
   SimpleCell,
-  HorizontalScroll,
-  Gallery
+  HorizontalScroll
 } from '@vkontakte/vkui';
 
 import { Swipeable } from 'react-swipeable';
@@ -42,8 +41,13 @@ export default class extends React.Component {
       subjects: {
         up: {
           monday: {
-            building: 'Лефортово',
+            building: 'Основное',
             list: [
+              {
+                number: 0,
+                name: 'Ин.яз',
+                teacher: '2 п/г'
+              },
               {
                 number: 1,
                 name: 'ТВиМС',
@@ -53,11 +57,6 @@ export default class extends React.Component {
                 number: 2,
                 name: 'ТВиМС',
                 teacher: 'Ковалевский А.Б.'
-              },
-              {
-                number: 3,
-                name: 'Численные методы',
-                teacher: 'Ерёмин М.Ю.'
               }
             ]
           },
@@ -66,9 +65,9 @@ export default class extends React.Component {
             list: [
               {
                 number: 1,
-                name: 'Психология общения',
-                teacher: 'Мягкова Н.Н.',
-                cabinet: 210
+                name: 'Численные методы',
+                teacher: 'Ерёмин М.Ю.',
+                cabinet: 303
               },
               {
                 number: 2,
@@ -78,9 +77,9 @@ export default class extends React.Component {
               },
               {
                 number: 3,
-                name: 'Численные методы',
-                teacher: 'Ерёмин М.Ю.',
-                cabinet: 303
+                name: 'Психология общения',
+                teacher: 'Мягкова Н.Н.',
+                cabinet: 210
               }
             ]
           },
@@ -113,7 +112,7 @@ export default class extends React.Component {
             ]
           },
           thursday: {
-            building: 'Лефортово',
+            building: 'Основное',
             list: [
               {
                 number: 0,
@@ -150,15 +149,26 @@ export default class extends React.Component {
               },
               {
                 number: 3,
-                name: 'Англ.яз (2 группы)'
+                name: 'Численные методы',
+                teacher: 'Ерёмин М.Ю.',
+                cabinet: 303
+              },
+              {
+                number: 4,
+                name: 'Англ.яз (1 п/г)'
               }
             ]
           }
         },
         down: {
           monday: {
-            building: 'Лефортово',
+            building: 'Основное',
             list: [
+              {
+                number: 0,
+                name: 'Ин.яз',
+                teacher: '2 п/г'
+              },
               {
                 number: 1,
                 name: 'ТВиМС',
@@ -168,11 +178,6 @@ export default class extends React.Component {
                 number: 2,
                 name: 'ТВиМС',
                 teacher: 'Ковалевский А.Б.'
-              },
-              {
-                number: 3,
-                name: 'Численные методы',
-                teacher: 'Ерёмин М.Ю.'
               }
             ]
           },
@@ -181,9 +186,9 @@ export default class extends React.Component {
             list: [
               {
                 number: 1,
-                name: 'Психология общения',
-                teacher: 'Мягкова Н.Н.',
-                cabinet: 210
+                name: 'Численные методы',
+                teacher: 'Ерёмин М.Ю.',
+                cabinet: 303
               },
               {
                 number: 2,
@@ -193,9 +198,9 @@ export default class extends React.Component {
               },
               {
                 number: 3,
-                name: 'Численные методы',
-                teacher: 'Ерёмин М.Ю.',
-                cabinet: 303
+                name: 'Психология общения',
+                teacher: 'Мягкова Н.Н.',
+                cabinet: 210
               }
             ]
           },
@@ -228,7 +233,7 @@ export default class extends React.Component {
             ]
           },
           thursday: {
-            building: 'Лефортово',
+            building: 'Основное',
             list: [
               {
                 number: 0,
@@ -265,7 +270,13 @@ export default class extends React.Component {
               },
               {
                 number: 3,
-                name: 'Англ.яз (2 группы)'
+                name: 'Численные методы',
+                teacher: 'Ерёмин М.Ю.',
+                cabinet: 303
+              },
+              {
+                number: 4,
+                name: 'Англ.яз (1 п/г)'
               }
             ]
           }
