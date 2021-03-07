@@ -1,6 +1,6 @@
-# Simple React Webpack boilerplate
+# Simple React Timetable
 
-A ready to use simple boilerplate for React Apps.
+Timetable for my group in college, simple to use by change object for your data.
 
 ## Instructions
 
