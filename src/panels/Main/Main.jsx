@@ -138,23 +138,23 @@ export default class extends React.Component {
             building: 'Основное',
             list: [
               {
+                number: 0,
+                name: 'ОСиС',
+                teacher: 'Грушицын А.С.'
+              },
+              {
                 number: 1,
                 name: 'ОСиС',
                 teacher: 'Грушицын А.С.'
               },
               {
                 number: 2,
-                name: 'ОСиС',
-                teacher: 'Грушицын А.С.'
-              },
-              {
-                number: 3,
                 name: 'Численные методы',
                 teacher: 'Ерёмин М.Ю.',
                 cabinet: 303
               },
               {
-                number: 4,
+                number: 3,
                 name: 'Англ.яз (1 п/г)'
               }
             ]
@@ -259,23 +259,23 @@ export default class extends React.Component {
             building: 'Основное',
             list: [
               {
+                number: 0,
+                name: 'ОСиС',
+                teacher: 'Грушицын А.С.'
+              },
+              {
                 number: 1,
                 name: 'ОСиС',
                 teacher: 'Грушицын А.С.'
               },
               {
                 number: 2,
-                name: 'ОСиС',
-                teacher: 'Грушицын А.С.'
-              },
-              {
-                number: 3,
                 name: 'Численные методы',
                 teacher: 'Ерёмин М.Ю.',
                 cabinet: 303
               },
               {
-                number: 4,
+                number: 3,
                 name: 'Англ.яз (1 п/г)'
               }
             ]
